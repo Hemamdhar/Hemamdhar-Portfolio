@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9f7b7b;
+    color: #ffffff;
+    line-height: 1.6;
+}
+#about{
+    background-color: rgb(189, 153, 153);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(216, 69, 69, 0.1);
+    
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background: #e4bdbd;
+    color: white;
+    padding: 1em 0;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    background-color: rgb(189, 153, 153);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(216, 69, 69, 0.1);
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 16px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #6f6464;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+#insta {
+    height:40px;
+    width:40px;
+    
+}
+#linkedin{
+    height:40px;
+    width:40px;
+    
+}
+#insta img{
+    box-align: center;
+    
+}
+#likedin img{
+    box-align: center;
+}
+#x{
+    height:40px;
+    width:40px;
+}
+#x:hover{
+    height: 50px;
+    width:50px;
+    border:5px solid rgb(255, 255, 255);
+    border-radius:20px;
+}
+#facebook{
+    height:40px;
+    width:40px;
+}
+#facebook:hover{
+    height: 50px;
+    width:50px;
+    border:5px solid white;
+    border-radius:20px;
+}
+#insta:hover{
+    height: 60px;
+    width:60px;
+    border:5px solid rgb(255, 255, 255);
+    border-radius:20px;
+}
+#linkedin:hover{
+    height: 50px;
+    width:50px;
+    border:5px solid white;
+    border-radius:20px;
+}
